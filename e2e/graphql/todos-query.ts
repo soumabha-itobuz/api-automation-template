@@ -1,4 +1,6 @@
-export const TODOS_QUERY = `
+import { graphql } from "../gql";
+
+export const TODOS_QUERY = graphql(`
   query Data {
     todos {
       data {
@@ -7,4 +9,4 @@ export const TODOS_QUERY = `
       }
     }
   }
-`;
+`);

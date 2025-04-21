@@ -1,10 +1,10 @@
 import type { CodegenConfig } from '@graphql-codegen/cli'
  
 const config: CodegenConfig = {
-   schema: 'https://localhost:4000/graphql',
-   documents: ['src/**/*.tsx'],
+   schema: 'https://graphqlzero.almansi.me/api',
+   documents: ['./e2e/graphql/*.ts'],
    generates: {
-      './src/gql/': {
+      './e2e/gql/': {
         preset: 'client',
       }
    }
