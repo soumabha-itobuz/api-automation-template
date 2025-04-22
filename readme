@@ -1,1 +1,7 @@
 separate test run: npm test file name
+
+## gql generate file setup step
+1. Go to codegen site and follow the steps to generate the codegen file (https://the-guild.dev/graphql/codegen/docs/getting-started#from-the-frontend)
+2. Copy the generated codegen file to the root of the project and rename it to codegen.ts
+3. Install the required dependencies
+4. Query structure sould be URQL React Query
